@@ -4,7 +4,7 @@
   <Platform>WindowsStoreApp</Platform>
   <Config />
   <SourceFiles>
-    <File>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/ball.png</File>
+    <File>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/Backgrounds/Background.png</File>
     <File>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/mobs/slime1-3x.png</File>
   </SourceFiles>
 </SourceFileCollection>

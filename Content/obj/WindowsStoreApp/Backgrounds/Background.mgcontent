@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/ball.png</SourceFile>
-  <SourceTime>2019-08-25T13:09:09-04:00</SourceTime>
-  <DestFile>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/bin/WindowsStoreApp/ball.xnb</DestFile>
-  <DestTime>2019-08-25T17:05:49.6297039-04:00</DestTime>
+  <SourceFile>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/Backgrounds/Background.png</SourceFile>
+  <SourceTime>2017-02-21T14:32:16-05:00</SourceTime>
+  <DestFile>/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/Content/bin/WindowsStoreApp/Backgrounds/Background.xnb</DestFile>
+  <DestTime>2019-08-29T21:48:35.0515839-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-11-29T01:58:26-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
