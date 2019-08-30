@@ -10,9 +10,9 @@ namespace MOBAlgorithms.Desktop
     /// </summary>
     public class Game1 : Game
     {
-        Texture2D ballTexture;
-        Vector2 ballPosition;
-        float ballSpeed;
+        Texture2D slimeTexture;
+        Vector2 slimePosition;
+        float slimeSpeed;
 
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -32,9 +32,12 @@ namespace MOBAlgorithms.Desktop
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            ballPosition = new Vector2(graphics.PreferredBackBufferWidth / 2,
-                graphics.PreferredBackBufferHeight / 2);
-            ballSpeed = 100f;
+            slimePosition = new Vector2(graphics.PreferredBackBufferWidth / 2,
+                graphics.PreferredBackBufferHeight / 2 + graphics.PreferredBackBufferHeight / 4);
+            slimeSpeed = 100f;
+
+            Console.WriteLine(graphics.PreferredBackBufferWidth);
+            Console.WriteLine(graphics.PreferredBackBufferHeight);
 
             base.Initialize();
         }
@@ -49,7 +52,7 @@ namespace MOBAlgorithms.Desktop
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            ballTexture = Content.Load<Texture2D>("mobs/slime1-3x");
+            slimeTexture = Content.Load<Texture2D>("mobs/slime1-3x");
         }
 
         /// <summary>
@@ -75,13 +78,13 @@ namespace MOBAlgorithms.Desktop
             var kstate = Keyboard.GetState();
 
             if (kstate.IsKeyDown(Keys.Left))
-                ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                slimePosition.X -= slimeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             if (kstate.IsKeyDown(Keys.Right))
-                ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                slimePosition.X += slimeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            ballPosition.X = Math.Min(Math.Max(ballTexture.Width / 2, ballPosition.X), graphics.PreferredBackBufferWidth - ballTexture.Width / 2);
-            ballPosition.Y = Math.Min(Math.Max(ballTexture.Height / 2, ballPosition.Y), graphics.PreferredBackBufferHeight - ballTexture.Height / 2);
+            slimePosition.X = Math.Min(Math.Max(slimeTexture.Width / 2, slimePosition.X), graphics.PreferredBackBufferWidth - slimeTexture.Width / 2);
+            slimePosition.Y = Math.Min(Math.Max(slimeTexture.Height / 2, slimePosition.Y), graphics.PreferredBackBufferHeight - slimeTexture.Height / 2);
 
             base.Update(gameTime);
         }
@@ -96,8 +99,8 @@ namespace MOBAlgorithms.Desktop
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
-            spriteBatch.Draw(ballTexture, ballPosition, null, Color.White, 0f,
-                new Vector2(ballTexture.Width / 2, ballTexture.Height / 2),
+            spriteBatch.Draw(slimeTexture, slimePosition, null, Color.White, 0f,
+                new Vector2(slimeTexture.Width / 2, slimeTexture.Height / 2),
                 Vector2.One, SpriteEffects.None, 0f);
             spriteBatch.End();
 
