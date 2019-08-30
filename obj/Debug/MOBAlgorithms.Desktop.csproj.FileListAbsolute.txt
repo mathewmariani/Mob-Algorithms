@@ -1,4 +1,5 @@
-/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/Content/ball.xnb
+/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/Content/Backgrounds/Background.xnb
+/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/Content/mobs/slime1-3x.xnb
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/x86/SDL2.dll
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/x64/SDL2.dll
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/x86/soft_oal.dll
@@ -19,4 +20,3 @@
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/obj/Debug/MOBAlgorithms.Desktop.csproj.CoreCompileInputs.cache
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/obj/Debug/MOBAlgorithms.Desktop.csproj.CopyComplete
 /Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/obj/Debug/MOBAlgorithms.Desktop.exe
-/Users/mrtvor/Projects/MOBAlgorithms/MOBAlgorithms/bin/Debug/Content/mobs/slime1-3x.xnb
