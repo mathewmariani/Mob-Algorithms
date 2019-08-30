@@ -17,8 +17,7 @@ namespace NPCTools.Desktop.Dispositions {
             AGGRESSIVE
         }
 
-        public static Mindless GetRandomPersonality()
-        {
+        public static Mindless getRandomPersonality() {
             Random random = new Random();
             int x = random.Next(1, 98);
 
