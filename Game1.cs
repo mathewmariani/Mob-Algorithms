@@ -3,6 +3,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+
+
 namespace MOBAlgorithms.Desktop
 {
     /// <summary>
@@ -78,7 +80,9 @@ namespace MOBAlgorithms.Desktop
             var kstate = Keyboard.GetState();
 
             if (kstate.IsKeyDown(Keys.Left))
+            {
                 slimePosition.X -= slimeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            }
 
             if (kstate.IsKeyDown(Keys.Right))
                 slimePosition.X += slimeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;

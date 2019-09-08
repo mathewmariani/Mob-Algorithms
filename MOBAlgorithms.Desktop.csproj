@@ -39,6 +39,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mobs\Slime.cs" />
     <Compile Include="Dispositions\Mindless.cs" />
+    <Compile Include="Dispositions\FSM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
