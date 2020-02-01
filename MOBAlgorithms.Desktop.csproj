@@ -40,6 +40,8 @@
     <Compile Include="Mobs\Slime.cs" />
     <Compile Include="Dispositions\Mindless.cs" />
     <Compile Include="Dispositions\FSM.cs" />
+    <Compile Include="Interfaces\NonPlayerCharacter.cs" />
+    <Compile Include="Extras\Attributes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -110,6 +112,8 @@
   <ItemGroup>
     <Folder Include="Mobs\" />
     <Folder Include="Dispositions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Extras\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Xna.Framework;
 
 namespace NPCTools.Desktop.Mobs {
 
@@ -6,8 +7,10 @@ namespace NPCTools.Desktop.Mobs {
 
         private Dispositions.MindlessDisposition.Mindless disposition;
         private DateTime movementTimer = DateTime.Now;
+        private Dispositions.FSM brain;
 
-        //private TargetObject target; (Will hold a reference to it's current target
+        //Target will be set to player, but if you want a more interesting slime it could target other things
+        private Object target = new Object();
 
         public Slime() {
             disposition = Dispositions.MindlessDisposition.getRandomPersonality();
@@ -19,6 +22,10 @@ namespace NPCTools.Desktop.Mobs {
             if (x > 1500)
                 resetMovementTimer();
             return -1 *( Math.Pow(x, 2) + (2 * x));
+        }
+
+        public double getJumpSpeed() {
+            return 0.0;
         }
 
         public String getDisposition() {
