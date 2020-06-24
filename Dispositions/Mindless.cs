@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NPCTools.Desktop.Dispositions {
+namespace MOBAlgorithms.Desktop.Dispositions {
 
 
     class MindlessDisposition
