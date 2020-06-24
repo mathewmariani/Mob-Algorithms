@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 
-namespace NPCTools.Desktop.Mobs {
+namespace MOBAlgorithms.Desktop.Mobs {
 
     public class Slime {
 

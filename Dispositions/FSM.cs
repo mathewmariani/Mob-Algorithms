@@ -1,5 +1,5 @@
 ﻿using System;
-namespace NPCTools.Desktop.Dispositions
+namespace MOBAlgorithms.Desktop.Dispositions
 {
     public class FSM {
 
