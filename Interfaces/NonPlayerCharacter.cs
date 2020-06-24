@@ -1,8 +1,7 @@
 ﻿using System;
-using Extras.Attributes;
-namespace NPCTools.Desktop.Interfaces
+namespace MOBAlgorithms.Desktop.Interfaces
 {
-    private Attributes attributes;
+    //private Extras.Attributes attributes;
 
     public interface NonPlayerCharacter
     {
